@@ -107,7 +107,7 @@ class Buttons extends React.Component {
     }
   }
 
-export default isOperator 
-export default endsWithOperator
-export default endsWithNegativeSign
-export default Buttons
+export default isOperator;
+export default endsWithOperator;
+export default endsWithNegativeSign;
+export default Buttons;

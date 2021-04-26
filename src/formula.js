@@ -4,4 +4,4 @@ class Formula extends React.Component {
     }
   }
 
-export default Formula
+export default Formula;
