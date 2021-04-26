@@ -1,3 +1,6 @@
+import React from 'react';
+import './index.css'
+
 class Output extends React.Component {
     render() {
       return (

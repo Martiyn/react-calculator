@@ -1,3 +1,6 @@
+import React from 'react';
+import './index.css'
+
 const isOperator = /[x/+‑]/,
   endsWithOperator = /[x+‑/]$/,
   endsWithNegativeSign = /\d[x/+‑]{1}‑$/,
