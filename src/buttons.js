@@ -1,3 +1,16 @@
+const isOperator = /[x/+‑]/,
+  endsWithOperator = /[x+‑/]$/,
+  endsWithNegativeSign = /\d[x/+‑]{1}‑$/,
+  clearStyle = { background: '#ac3939' },
+  operatorStyle = { background: '#4d4d4d' },
+  equalsStyle = {
+    background: '#004466',
+    position: 'absolute',
+    height: 130,
+    bottom: 3
+  };
+
+
 class Buttons extends React.Component {
     render() {
       return (
@@ -93,4 +106,8 @@ class Buttons extends React.Component {
       );
     }
   }
-  export default Buttons
+
+export default isOperator 
+export default endsWithOperator
+export default endsWithNegativeSign
+export default Buttons
