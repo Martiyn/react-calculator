@@ -5,7 +5,7 @@ import endsWithOperator from './buttons.js';
 import endsWithNegativeSign from './buttons.js';
 import Formula from './formula.js';
 import Output from './output.js';
-import './index.css';
+import './index.scss';
 
 class Calculator extends React.Component {
     constructor(props) {
